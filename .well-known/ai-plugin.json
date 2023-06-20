@@ -3,7 +3,7 @@
     "name_for_human": "Web Summarizer",
     "name_for_model": "web-sum",
     "description_for_human": "Summarize a webpage given how specific YOU want it to be.",
-    "description_for_model": "Summarize a specific webpage given user-defined parameters.",
+    "description_for_model": "Summarize a specific webpage given user-defined parameters of a link and optional response length.",
     "auth": {
         "type": "none"
     },
@@ -13,5 +13,5 @@
     },
     "logo_url": "https://sunnydigital.github.io/web-sum/assets/logo.png",
     "contact_email": "sunnys2327@gmail.com",
-    "legal_info_url": "https://sunnydigital.github.io/web-sum"
+    "legal_info_url": "https://sunnydigital.github.io/web-sum/"
 }
