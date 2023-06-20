@@ -1,0 +1,17 @@
+{
+    "schema_version": "v0.1.0",
+    "name_for_human": "Web Summarizer",
+    "name_for_model": "web-sum",
+    "description_for_human": "Summarize a webpage given how specific YOU want it to be.",
+    "description_for_model": "Summarize a specific webpage given user-defined parameters.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://sunnydigital.github.io/web-sum/openapi.yaml"
+    },
+    "logo_url": "https://sunnydigital.github.io/web-sum/logo.png",
+    "contact_email": "sunnys2327@gamil.com",
+    "legal_info_url": "https://sunnydigital.github.io/web-sum"
+}
