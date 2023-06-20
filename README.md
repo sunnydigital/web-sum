@@ -1,2 +1,1 @@
-# gpt-paper-distill
-Repository for GPT Paper Distill
+# Repository for Web Summarizer Plugin in ChatGPT
