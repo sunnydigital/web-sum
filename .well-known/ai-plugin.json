@@ -1,6 +1,6 @@
 {
     "schema_version": "v1.0.0",
-    "name_for_human": "Web Summarizer",
+    "name_for_human": "Webpage Summarizer",
     "name_for_model": "web-sum",
     "description_for_human": "Summarize a webpage given how specific YOU want it to be.",
     "description_for_model": "Summarize a specific webpage given user-defined parameters of a link and optional response length.",
