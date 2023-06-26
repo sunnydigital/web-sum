@@ -9,9 +9,9 @@
     },
     "api": {
         "type": "openapi",
-        "url": "https://sunnydigital.github.io/web-sum/openapi.yaml"
+        "url": "https://web-sum.sunnyson.repl.co/.well-known/openapi.yaml"
     },
-    "logo_url": "https://sunnydigital.github.io/web-sum/assets/logo.png",
+    "logo_url": "https://web-sum.sunnyson.repl.co/assets/logo.png",
     "contact_email": "sunnys2327@gmail.com",
-    "legal_info_url": "https://sunnydigital.github.io/web-sum/"
+    "legal_info_url": "https://web-sum.sunnyson.repl.co"
 }
