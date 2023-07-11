@@ -3,15 +3,15 @@
     "name_for_human": "Webpage Summarizer",
     "name_for_model": "websum",
     "description_for_human": "Allow ChatGPT to access the information contained in a webpage via its URL, by default returning a summary",
-    "description_for_model": "A plugin that allows the user to enter a URL and have the contents understood (and remembered for future use) by the coversational agent which, by default, will return a summary of the article.",
+    "description_for_model": "A plugin that allows the user to enter a URL and have the contents understood (and remembered for future use) by the coversational agent which, by default, will return a summary of the article",
     "auth": {
         "type": "none"
     },
     "api": {
         "type": "openapi",
-        "url": "https://web-sum.sunnyson.repl.co/.well-known/openapi.yaml"
+        "url": "https://web-sum.sunnyson.dev/.well-known/openapi.yaml"
     },
-    "logo_url": "https://web-sum.sunnyson.repl.co/.well-known/logo.png",
+    "logo_url": "https://web-sum.sunnyson.dev/.well-known/logo.png",
     "contact_email": "sunnys2327@gmail.com",
-    "legal_info_url": "https://web-sum.sunnyson.repl.co"
+    "legal_info_url": "https://web-sum.sunnyson.dev"
 }

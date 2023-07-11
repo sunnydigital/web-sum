@@ -1,10 +1,10 @@
 openapi: 3.0.1
 info:
     title: web-sum ChatGPT Plugin
-    description: A plugin that allows the user to enter a URL and have have the contents understood by the coversational agent (in this case ChatGPT), if the user implies wanting summarize or if the prompt is left blank other than the URL, return a summary of the article. In either case, store the contents for future use and reference.
+    description: A plugin that allows the user to enter a URL and have the contents understood (and remembered for future use) by the coversational agent which, by default, will return a summary of the article
     version: "v1"
 servers:
-    - url: https://web-sum.sunnyson.repl.co
+    - url: https://web-sum.sunnyson.dev
 paths:
   /summarize/{url}:
     get:
