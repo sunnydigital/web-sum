@@ -10,8 +10,6 @@ buildFuture: false
 buildExpired: false
 pluralizeListTitles: false
 
-# googleAnalytics:
-
 minify:
   disableXML: true
   minifyOutput: true
