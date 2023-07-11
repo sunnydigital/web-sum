@@ -1,8 +1,8 @@
-baseURL: "https://main--cheerful-mousse-b9d87b.netlify.app"
+baseURL: https://web-sum.sunnyson.dev
 languageCode: en-us
-title: Jesse Wei
+title: Webpage Summarizer
 theme: PaperMod
-paginate: 5
+paginate: 10
 
 enableRobotsTXT: true
 buildDrafts: true
@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 pluralizeListTitles: false
 
-googleAnalytics: G-Q603T56FWT
+# googleAnalytics:
 
 minify:
   disableXML: true
@@ -19,16 +19,20 @@ minify:
 # https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Jesse Wei
+  title: Webpage Summarizer
+
   # This is shown when website is posted in Discord and other socials
-  description: "Computer Science MS student at UNC. Welcome to my website!"
-  keywords: [Jesse Wei, Blog, Portfolio, UNC, Computer Science, Mathematics, CS, University of North Carolina at Chapel Hill]
+  description: A simple ChatGPT Plugin allowing for processing information from URLs for websites and PDFs 
+  keywords: ["chat-gpt", "plugin", "homepage", "pdf", "url"]
+
   # author: ["Me", "You"] # multiple authors
-  author: "Jesse Wei"
+  author: Sunny Son
+
   # Image displayed when posting site link on socials
   # For example, if you post the link to the site in Discord, this image will be displayed
-  images: ["logo_outlined_6.png"]
-  DateFormat: "January 2, 2006"
+  images: ["logo.png"]
+  DateFormat: January 2, 2006
+
   # dark, light
   defaultTheme: auto
   disableThemeToggle: false
@@ -40,20 +44,25 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: false
+
   # See markup.tableOfContents for configuration
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
+
   # See https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#comments
   comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
   tocopen: true
+
   # New, from PaperModX
   TocSide: left
+
   # Enable KaTeX on every page globally. See blog post about setting up site
   math: true
+
   # Without this, archive doesn't show all pages
   # See https://github.com/adityatelange/hugo-PaperMod/issues/912
   # And https://github.com/adityatelange/hugo-PaperMod/commit/fc87fc3a29e8e515dff866159601a734e3ad4a2f
@@ -72,6 +81,7 @@ params:
     # https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
     # Note: Do not enable this. May not work correctly due to some code theme changes made in or around
     # https://github.com/jesse-wei/jessewei.dev-PaperMod/commit/bcadfdde8e12a2a9f9ed853f9939695797b31739
+    
     disableHLJS: true
     # disableFingerprinting: true
 
@@ -80,68 +90,29 @@ params:
 
   # Logo and name shown on top left of site
   label:
-    text: "Jesse Wei"
-    icon: /logo_filled_outlined_6.png
+    text: Webpage Summarizer
+    icon: /logo.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    # Needs to be explicitly set
     enabled: true
-    title: Jesse Wei
-    # I changed this to use HTML instead of Markdown in index_profile.html
-    subtitle: "{CS Master's student, Researcher, Serial COMP TA} @ <a href=\"https://unc.edu\">UNC</a>. <a href=\"/about\"><ins>More about me</ins></a>"
-    imageUrl: "/me.jpg"
+    title: Webpage Summarizer
+    subtitle: A simple ChatGPT plugin to obtain the information from a webpage (in PDF/URL format), given it's URL.
+    imageUrl: /logo.jpg
     imageWidth: 150
     imageHeight: 150
-    imageTitle: Picture of me
-    buttons:
-      - name: Posts
-        url: /posts
-      - name: Tags
-        url: /tags
-      - name: Archives
-        url: /archives
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: |
-      Welcome to my blog
-      Multi-line string with \n separating them
+    imageTitle: A connected globe
 
   socialIcons:
-    # - name: cv
-    #   url: "/WeiJesseResumePublic.pdf"
     - name: github
-      url: "https://github.com/jesse-wei"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/jessewei1/"
-    - name: discord
-      url: "/discord"
-    - name: email
-      url: "mailto:jesse@cs.unc.edu"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+      url: https://github.com/sunnydigital/web-sum
 
   cover:
     linkFullImages: true
-    # Hide everywhere but not in structured data
     hidden: false
-    # Hide in list view
     hiddenInList: false
     hiddenInSingle: true
-
-  editPost:
-    URL: "https://github.com/jesse-wei/jessewei.dev-PaperMod/edit/main/content"
-    Text: "Suggest edit"
-    appendFilePath: true
 
   # For search
   # https://fusejs.io/api/options.html
@@ -167,13 +138,13 @@ menu:
       name: About
       url: /about/
       weight: 1
-    - identifier: projects
-      name: Projects
-      url: /projects/
+    - identifier: installation
+      name: Installation
+      url: /installation/
       weight: 2
-    - identifier: teaching
-      name: Teaching
-      url: /teaching/
+    - identifier: tags
+      name: Tags
+      url: /tags/
       weight: 3
     - identifier: search
       name: Search
@@ -182,8 +153,10 @@ menu:
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
+
 # Source: https://gohugo.io/getting-started/configuration-markup/#highlight
 # Parameter meanings: https://gohugo.io/functions/highlight/
+
 markup:
   tableOfContents:
     # Without this, Hugo ToC doesn't show h4 and higher

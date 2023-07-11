@@ -28,14 +28,20 @@ jobs:
         run: |
           python -m pip install ansi2html
           sudo apt-get install unzip
+
+      - name: Set execute permissions for build script
+        run: chmod +x ./scripts/build
+
       - name: Build Hugo website
         run: ./scripts/build
         shell: bash
+
       - name: Test HTML
         # https://github.com/wjdp/htmltest-action/
         uses: wjdp/htmltest-action@master
         with:
           config: ./.github/.htmltest.yml
+
       - name: Archive htmltest results
         # Archive result even if Test HTML fails
         # Use if: always() instead of continue-on-error, as in the original file
@@ -57,10 +63,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: 3.x
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade codespell
+
       - name: Run spellcheck
         run: |
           codespell $(git ls-files)
