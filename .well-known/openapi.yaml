@@ -1,0 +1,49 @@
+openapi: 3.0.1
+info:
+    title: web-sum ChatGPT Plugin
+    description: A plugin that allows the user to enter a URL and have have the contents understood by the coversational agent (in this case ChatGPT), if the user implies wanting summarize or if the prompt is left blank other than the URL, return a summary of the article. In either case, store the contents for future use and reference in the context of conversation.
+    version: "v1"
+servers:
+    - url: https://web-sum.sunnyson.repl.co
+paths:
+  /summarize/{url}:
+    get:
+      operationId: getHtml
+      summary: Get the text summary of a webpage.
+      parameters:
+      - in: path
+        name: url
+        schema:
+          type: string
+        required: true
+        description: The URL of the webpage.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/getHtmlResponse"
+        default:
+          description: Unexpected error.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/errorResponse"
+components:
+  schemas:
+    getHtmlResponse:
+      type: object
+      properties:
+        text:
+          type: string
+          description: The HTML content of the webpage.
+    errorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+          description: Error occurred, aborting URL search.
+        message:
+          type: string
+          description: Error occurred, aborting summarization.
