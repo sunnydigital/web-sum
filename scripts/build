@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Script for building website
+# Assumes dependencies are already installed when called
+# Dependencies: ansi2html, unzip
+# Runs in 3 places: Netlify deployment (Ubuntu container), GitHub Actions (Ubuntu container), and locally (macOS)
+# scripts/netlify wraps this script and installs dependencies during Netlify deployment (sudo not allowed)
+# ci.yml calls this script and installs most dependencies using sudo apt-get
+# Locally, I have all dependencies already so not a concern
+
+# Create papermod_diff pages
+chmod +x scripts/diff.py
+# diff.py outputs to scripts/PaperMod_diff
+./scripts/diff.py
+if [ -d "content/posts/papermod_diff" ]; then
+    rm -rf content/posts/papermod_diff
+fi
+# Move diff.py output to content/ to deploy on site
+mv scripts/PaperMod_diff content/posts/papermod_diff
+
+# Get latest version of resume and put in static/ in Netlify or CI
+# if [[ ! -z "${NETLIFY}" ]] || [[ ! -z "${CI}" ]]; then
+#     chmod +x scripts/resume
+#     ./scripts/resume
+# fi
+
+# Build website content and output into public/
+hugo

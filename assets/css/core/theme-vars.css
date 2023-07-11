@@ -1,0 +1,52 @@
+/*
+Made some of my own modifications
+Note: https://github.com/adityatelange/hugo-PaperMod/pull/143/files#diff-12ad2b661fa0eda6278867e1a9f6e4debd09ba3cb2e09410ead9e2f459d9cbdd
+deletes --hljs-bg definitions, but this breaks the scrollbar, at minimum, so I don't do that
+*/
+
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    /* Changed this. Went to inspect element and found actual height of footer in Search page. */
+    --footer-height: 106px;
+    /* Add new variable for height of footer without socials, such as on homepage (index_profile) */
+    --footer-no-socials-height: 60px;
+    --radius: 8px;
+    --theme: rgb(255, 255, 255);
+    --entry: rgb(255, 255, 255);
+    --primary: rgb(30, 30, 30);
+    --secondary: rgb(108, 108, 108);
+    --tertiary: rgb(214, 214, 214);
+    --content: rgb(31, 31, 31);
+    --hljs-bg: rgb(28, 29, 33);
+    --code-bg: rgb(245, 245, 245);
+    --border: rgb(238, 238, 238);
+    --carolina_blue: #4B9CD3;
+}
+
+.dark {
+    --theme: rgb(29, 30, 32);
+    --entry: rgb(46, 46, 51);
+    --primary: rgb(218, 218, 219);
+    --secondary: rgb(155, 156, 157);
+    --tertiary: rgb(65, 66, 68);
+    --content: rgb(196, 196, 197);
+    --hljs-bg: rgb(46, 46, 51);
+    --code-bg: rgb(55, 56, 62);
+    --border: rgb(51, 51, 51);
+}
+
+.list {
+    background: var(--code-bg);
+}
+
+.dark.list {
+    background: var(--theme);
+}
+
+/* Fixes scrollbar on Safari */
+/* Source: https://github.com/adityatelange/hugo-PaperMod/issues/654 */
+::-webkit-scrollbar{ background: var(--theme); }
