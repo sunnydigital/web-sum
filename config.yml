@@ -37,7 +37,7 @@ params:
     - logo.png
   DateFormat: January 2, 2006
 
-  favicon: globe.ico
+  favicon: favicon.ico
 
   # dark, light
   defaultTheme: auto
