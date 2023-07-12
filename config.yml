@@ -21,7 +21,12 @@ params:
 
   # This is shown when website is posted in Discord and other socials
   description: A simple ChatGPT Plugin allowing for processing information from URLs for websites and PDFs 
-  keywords: ["chat-gpt", "plugin", "homepage", "pdf", "url"]
+  keywords: 
+    - chat-gpt
+    - plugin
+    - homepage
+    - pdf
+    - url
 
   # author: ["Me", "You"] # multiple authors
   author: Sunny Son
@@ -124,7 +129,11 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: 
+      - title
+      - permalink
+      - summary
+      - content
 
 # Source: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#search-page
 outputs:
