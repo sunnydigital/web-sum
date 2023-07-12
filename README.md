@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8599d34a-43e6-4879-907b-1346349f2d29/deploy-status)](https://app.netlify.com/sites/web-sum/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/95e1b87f-2793-43eb-9179-5a7d97abaf0f/deploy-status)](https://app.netlify.com/sites/web-sum/deploys)
 
 
 # Repository for Web Summarizer Plugin in ChatGPT and Associated Webpage
