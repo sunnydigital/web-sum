@@ -14,6 +14,8 @@ minify:
   disableXML: true
   minifyOutput: true
 
+googleAnalytics: G-SDW8FZL3B5
+
 # https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
