@@ -16,18 +16,18 @@ tags:
     - intro
     - introduction
 
-relative: false
+relative: true
 ---
 
 ## About the plugin
 
 <figure>
-    <img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="/static/logo.jpg" alt="Logo">
+    <img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="images/logo.jpg" alt="Logo">
 </figure>
 
 The web-sum ChatGPT plugin is a tool designed to assist you in summarizing webpages efficiently and effectively. Utilizing the capabilities of OpenAI's GPT-4, this plugin allows users to enter a webpage URL and receive a brief, coherent summary of the webpage content.
 
-### Key Features
+### Key features
 
 - **Text Summarization:** Summarize any webpage or PDF by simply inputting the URL.
 - **Compatibility:** Seamlessly integrates with ChatGPT.
