@@ -21,11 +21,6 @@ relative: true
 
 ![](images/coding-website.jpg)
 
-<figure>
-    <img src="images/coding-website.jpg" alt="Person using a PC">
-    <figcaption align="center">Person using a PC</figcaption>
-</figure>
-
 ## The plugin at a glance
 
 The web-sum ChatGPT plugin is a tool designed to assist you in summarizing webpages efficiently and effectively. Utilizing the capabilities of OpenAI's GPT-4, this plugin allows users to enter a webpage URL and receive a brief, coherent summary of the webpage content.
