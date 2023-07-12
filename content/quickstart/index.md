@@ -18,7 +18,7 @@ relative: true
 
 ## Quick deploy
 
-Deploying Web-sum ChatGPT Plugin is simple and straightforward, the fastest way being from this current webpage:
+Deploying Web-sum ChatGPT Plugin is simple and straightforward, the method being from this current webpage:
 
 1. Go to `chat.openai.com`
 2. Click `New chat` > `GPT-4` > `Plugins (Beta)` > `Plugin store` > `Install an unverified plugin`

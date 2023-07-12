@@ -158,20 +158,20 @@ menu:
       url: /quickstart/
       weight: 2
 
-    - identifier: installation
-      name: Installation
-      url: /installation/
-      weight: 3
+    #- identifier: installation
+    #  name: Installation
+    #  url: /installation/
+    #  weight: 3
 
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 4
+      weight: 3
       
     - identifier: search
       name: Search
       url: /search/
-      weight: 5
+      weight: 4
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
