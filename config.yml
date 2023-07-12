@@ -175,7 +175,7 @@ menu:
       url: /search/
       weight: 4
 
-    - name: Sunny's Homepage
+    - name: Sunny's Page
       url: https://sunnyson.dev
       weight: 5
 
