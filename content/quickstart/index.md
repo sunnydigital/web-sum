@@ -26,4 +26,6 @@ Deploying Web-sum ChatGPT Plugin is simple and straightforward, the method being
 
 Et voilà! you are ready to browse the web using ChatGPT.
 
+Enter the webpage you would like to read (in the form of an URL) or the link to a PDF hosted by a website (through an URL).
+
 **Note**: The current iteration of the plugin does not handle text over the token size of `4096` as set for both GPT-3.5 (ChatGPT) and GPT-4. Every `1000` "tokens" is roughly `750` words, meaning for approximately `3072` words in the webpage or URL document. Future iterations will handle this issue, potentially including multiple post/get requests to process all tokens of a document.
