@@ -19,7 +19,10 @@ tags:
 relative: true
 ---
 
-![](images/coding-website.jpg)
+<figure>
+    <img src="images/coding-website.jpg" alt="Historic Park GWB">
+    <figcaption align="center">An image of someone browsing the web, with ChatGPT at their fingertips</figcaption>
+</figure>
 
 ## The plugin at a glance
 
