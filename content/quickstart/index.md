@@ -18,7 +18,7 @@ relative: false
 layout: quickstart
 ---
 
-## To do..
+## Quick deploy
 
 Deploying Web-sum ChatGPT Plugin is simple and straightforward, the fastest way being from this current webpage:
 
