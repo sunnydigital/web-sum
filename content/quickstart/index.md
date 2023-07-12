@@ -4,18 +4,14 @@ date: 2023-07-12T07:00:00-04:00
 draft: false
 showToc: false
 summary: Information about the webpage summarizer
-
 disableShare: true
 ShowReadingTime: false
 ShowWordCount: false
 showAuthor: false
-
 tags:
     - getting-started
     - quickstart
-
 relative: false
-layout: quickstart
 ---
 
 ## Quick deploy
