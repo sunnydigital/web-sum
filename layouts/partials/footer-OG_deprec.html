@@ -9,14 +9,9 @@
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">Sunny Son</a></span>
+    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
     {{- end }}
 
-    <!-- Add Privacy Policy link on every page -->
-    <span>
-        •
-        <a href="/privacy">Privacy Policy</a>
-    </span>
     <!-- Don't display Powered by Hugo & PaperMod on homepage -->
     {{- if not .IsHome }}
     <span>
@@ -25,11 +20,15 @@
         Powered by
         <!-- Remove target="_blank", which opens in new window or tab.
         Also remove rel="noopener noreferrer" -->
-        <a href="https://gohugo.io/">Hugo</a>, 
-        <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>, &
-        <a href="https://en.wikipedia.org/wiki/Love">💓</a>
+        <a href="https://gohugo.io/">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>
     </span>
     {{- end }}
+    <!-- Add Privacy Policy link on every page -->
+    <span>
+        •
+        <a href="/privacy">Privacy Policy</a>
+    </span>
 </footer>
 {{- end }}
 
@@ -70,7 +69,7 @@
             }
         });
     });
-    
+
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}
