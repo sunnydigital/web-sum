@@ -39,6 +39,10 @@ params:
 
   favicon: favicon.ico
 
+  cover:
+    responsiveImages: false
+    linkFullImages: true
+
   # dark, light
   defaultTheme: auto
   disableThemeToggle: false
@@ -78,9 +82,9 @@ params:
   # Necessary for post nav links to show up on /posts and /projects
   # https://github.com/adityatelange/hugo-PaperMod/issues/940
   mainSections:
-    - posts
-    - projects
-    - teaching
+    - about
+    - installaion
+    - quickstart
 
   assets:
     # Disables highlight.js, using Hugo Chroma instead

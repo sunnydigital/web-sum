@@ -11,8 +11,10 @@ showAuthor: false
 tags:
     - getting-started
     - quickstart
-relative: false
+relative: true
 ---
+
+
 
 ## Quick deploy
 
