@@ -21,7 +21,7 @@ relative: true
 Deploying Web-sum ChatGPT Plugin is simple and straightforward, the method being from this current webpage:
 
 1. Go to `chat.openai.com`
-2. Click `New chat` > `GPT-4` > `Plugins (Beta)` > `Plugin store` > `Install an unverified plugin`
+2. Click `New chat` > `GPT-4` > `Plugins (Beta)` > `Plugin store` > `Install your own plugin`
 3. Enter `web-sum.replit.app`
 
 Et voilà! you are ready to browse the web using ChatGPT.
