@@ -28,8 +28,11 @@ params:
 
   # Image displayed when posting site link on socials
   # For example, if you post the link to the site in Discord, this image will be displayed
-  images: ["logo.png"]
+  images: 
+    - logo.png
   DateFormat: January 2, 2006
+
+  favicon: globe.ico
 
   # dark, light
   defaultTheme: auto
@@ -49,7 +52,7 @@ params:
   disableScrollToTop: false
 
   # See https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#comments
-  comments: true
+  comments: false
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -89,15 +92,15 @@ params:
   # Logo and name shown on top left of site
   label:
     text: Webpage Summarizer
-    icon: /logo.png
+    icon: logo.jpg
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true
     title: Webpage Summarizer
-    subtitle: A simple ChatGPT plugin to obtain the information from a webpage (in PDF/URL format), given it's URL.
-    imageUrl: /logo.jpg
+    subtitle: A simple ChatGPT plugin to obtain the information from a webpage in PDF/URL format given a provided URL
+    imageUrl: logo.jpg
     imageWidth: 150
     imageHeight: 150
     imageTitle: A connected globe
