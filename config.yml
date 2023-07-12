@@ -173,6 +173,10 @@ menu:
       url: /search/
       weight: 4
 
+    - name: Sunny's Homepage
+      url: https://sunnyson.dev
+      weight: 5
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 
