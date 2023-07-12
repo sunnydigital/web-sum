@@ -15,6 +15,7 @@ tags:
     - quickstart
 
 relative: false
+layout: quickstart
 ---
 
 ## To do..
