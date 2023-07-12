@@ -14,7 +14,7 @@ tags:
 relative: true
 ---
 
-
+![](quickstart.jpg)
 
 ## Quick deploy
 
