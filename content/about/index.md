@@ -10,10 +10,16 @@ ShowReadingTime: false
 ShowWordCount: false
 showAuthor: false
 
+tags:
+    - about
+    - plugin
+    - intro
+    - introduction
+
 relative: false
 ---
 
-## About Web-sum ChatGPT Plugin
+## About the plugin
 
 <figure>
     <img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="/static/logo.jpg" alt="Logo">
@@ -28,15 +34,3 @@ The web-sum ChatGPT plugin is a tool designed to assist you in summarizing webpa
 - **Efficiency:** Leveraging AI technology for fast and accurate summarizations.
 
 **Note**: This plugin will only work if you currently *have access* to plugins in the ChatGPT webpage
-
-## Quick Deployment
-
-Deploying Web-sum ChatGPT Plugin is simple and straightforward, the fastest way being from this current webpage:
-
-1. Go to `chat.openai.com`
-2. Click `New chat` > `GPT-4` > `Plugins (Beta)` > `Plugin store` > `Install an unverified plugin`
-3. Enter `web-sum.sunnyson.dev`
-
-Et voilà! you are ready to browse the web.
-
-**Note**: The current iteration of the plugin does not handle text over the token size of `4096` as set for both GPT-3.5 (ChatGPT) and GPT-4. Every `1000` "tokens" is roughly `750` words, meaning for approximately `3072` words in the webpage or URL document. Future iterations will handle this issue, potentially including multiple post/get requests to process all tokens of a document.
