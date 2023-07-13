@@ -6,4 +6,6 @@ This repository deals with the planning and hosting of the Web Summarizer Plugin
 
 To use this plugin, enter the URL [web-sum.replit.app/](web-sum.replit.app/) under Install an Unverified Plugin given you have the feature unlocked in ChatGPT.
 
+Otherwise, it is possible to use Replit and host your own session by downloading the latest release and following the directions on the release page.
+
 Refer to the [website](https://web-sum.sunnyson.dev/) for more details on installation.
