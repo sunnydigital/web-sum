@@ -1,5 +1,0 @@
-quart
-quart-cors
-pdfplumber
-httpx
-bs4
