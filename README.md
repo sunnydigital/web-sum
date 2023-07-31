@@ -9,3 +9,5 @@ To use this plugin, enter the URL [web-sum.replit.app/](web-sum.replit.app/) und
 Otherwise, it is possible to use Replit and host your own session by downloading the latest release and following the directions on the release page.
 
 Refer to the [website](https://web-sum.sunnyson.dev/) for more details on installation.
+
+Or, you can simply download the plugin from the ChatGPT plugin store for *free*
