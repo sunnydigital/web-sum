@@ -11,3 +11,5 @@ Otherwise, it is possible to use Replit and host your own session by downloading
 Refer to the [website](https://web-sum.sunnyson.dev/) for more details on installation.
 
 Or, you can simply download the plugin from the ChatGPT plugin store for *free*
+
+Simply search up *Webpage Summarizer* and you're good to go!
